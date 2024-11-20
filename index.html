@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Tienda de Mariscos</title>
+    <style>
+        /* Estilos CSS */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+
+        .container {
+            width: 90%;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        header {
+            background-color: #0288d1;
+            color: #fff;
+            padding: 20px 0;
+            text-align: center;
+        }
+
+        header h1 {
+            font-size: 2.5em;
+        }
+
+        header p {
+            font-size: 1.2em;
+            margin-top: 10px;
+        }
+
+        main {
+            padding: 40px 0;
+        }
+
+        h2 {
+            text-align: center;
+            margin-bottom: 20px;
+            color: #0288d1;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 0 auto;
+        }
+
+        table th, table td {
+            padding: 15px;
+            text-align: center;
+            border: 1px solid #ddd;
+        }
+
+        table th {
+            background-color: #0288d1;
+            color: #fff;
+        }
+
+        .producto-imagen {
+            width: 100px;
+            height: auto;
+            border-radius: 8px;
+        }
+
+        footer {
+            background-color: #0288d1;
+            color: #fff;
+            text-align: center;
+            padding: 20px;
+            margin-top: 40px;
+        }
+
+        footer p {
+            font-size: 1em;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <div class="container">
+            <h1>Bienvenidos a la Tienda de Mariscos</h1>
+            <p>¡Los mejores mariscos frescos directos a tu mesa!</p>
+        </div>
+    </header>
+
+    <main>
+        <section class="productos">
+            <h2>Nuestros Productos</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Producto</th>
+                        <th>Foto</th>
+                        <th>Precio</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Camarones</td>
+                        <td><img src="https://via.placeholder.com/100" alt="Camarones" class="producto-imagen"></td>
+                        <td>$12.99/kg</td>
+                    </tr>
+                    <tr>
+                        <td>Ostras</td>
+                        <td><img src="https://via.placeholder.com/100" alt="Ostras" class="producto-imagen"></td>
+                        <td>$25.00/docena</td>
+                    </tr>
+                    <tr>
+                        <td>Langosta</td>
+                        <td><img src="https://via.placeholder.com/100" alt="Langosta" class="producto-imagen"></td>
+                        <td>$30.00/kg</td>
+                    </tr>
+                    <tr>
+                        <td>Pargo Rojo</td>
+                        <td><img src="https://via.placeholder.com/100" alt="Pargo Rojo" class="producto-imagen"></td>
+                        <td>$18.50/kg</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Tienda de Mariscos | Todos los derechos reservados</p>
+        </div>
+    </footer>
+
+    <script>
+        // JavaScript opcional
+        document.addEventListener('DOMContentLoaded', function() {
+            console.log("La página se ha cargado correctamente.");
+        });
+    </script>
+
+</body>
+</html>
